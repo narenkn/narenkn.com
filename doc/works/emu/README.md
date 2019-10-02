@@ -40,3 +40,5 @@ In ICE mode, the primary IOs of the design can be connected directly to a workin
 #### Disadvantages
 1. Availability of Speed Bridges
 1. Debug
+
+<Vssue title="Hardware Emulation" />

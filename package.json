@@ -13,6 +13,8 @@
       "vuepress-theme-resume": "^0.1.0"
    },
    "devDependencies": {
+      "@vssue/api-github-v3": "^1.1.0",
+      "@vssue/vuepress-plugin-vssue": "^1.1.0",
       "@vuepress/plugin-google-analytics": "^1.0.0-alpha.0.32",
       "vuepress": "^1.0.0-alpha.30",
       "vuepress-plugin-janitor": "^1.0.0",

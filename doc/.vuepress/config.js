@@ -75,6 +75,19 @@ module.exports = {
     },
     plugins: [
 	[
+	    '@vssue/vuepress-plugin-vssue',
+	    {
+		// set `platform` rather than `api`
+		platform: 'github',
+
+		// all other options of Vssue are allowed
+		owner: 'narenkn',
+		repo: 'narenkn.com',
+		clientId: 'd00e821b8f9fda2385cd',
+		clientSecret: '378f5f27c44f37afd0f2bf577e253d1ec5715274',
+	    },
+	],
+	[
 	    '@vuepress/google-analytics',
 	    {
 		ga: 'UA-141610207-1'

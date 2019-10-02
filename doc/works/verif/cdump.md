@@ -5,7 +5,7 @@ This is a C++ library to dump C/C++ variables together with FSDB dumps. This mak
 * [Link](https://github.com/narenkn/cdump.git)
 
 ## Interface
-```c++
+```cpp
 #define cDUMP_PushHier(hier)
 #define cDUMP_PopHier()
 #define cDUMP_PushArray(hier, sz)
@@ -24,3 +24,5 @@ This is a C++ library to dump C/C++ variables together with FSDB dumps. This mak
 
 ## Example
 The code was plucked out of existing code. I haven't had the opportunity to create a working example. I would be very happy if one of you could do it. Let me know, if further information is needed.
+
+<Vssue title="C-Dump" />
