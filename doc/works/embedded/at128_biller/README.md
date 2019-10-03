@@ -5,4 +5,5 @@ The single reason I was unhappy with [Atmega32 based design](/works/embedded/at3
 ![AT128 Board Front](./at128_b1.jpg) <br>
 ![AT128 Board Back](./at128_b2.jpg) <br>
 
+## Comments
 <Vssue title="Design of Billing Machine with ATMEGA128" />

@@ -41,4 +41,5 @@ In ICE mode, the primary IOs of the design can be connected directly to a workin
 1. Availability of Speed Bridges
 1. Debug
 
+## Comments
 <Vssue title="Hardware Emulation" />

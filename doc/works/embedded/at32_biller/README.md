@@ -28,4 +28,5 @@ Software was a critical component too. I dnd't go with existing libraries and de
 ## Source
 Source code is available in public [repo](https://github.com/narenkn/atmega_biller/tree/atmega32), without any obligation. Use it at your own risk!!! The relevant branch for this project is _atmega32_.
 
+## Comments
 <Vssue title="Design of Billing Machine with ATMEGA32" />
