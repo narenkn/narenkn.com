@@ -93,6 +93,13 @@ module.exports = {
 		ga: 'UA-141610207-1'
 	    }
 	],
+//	[
+//	    'vuepress-plugin-google-adsense',
+//	    {
+//		'google_ad_client': 'ca-pub-4214323124076221',
+//		'enable_page_level_ads': true
+//	    }
+//	],
 	[
 	    'vuepress-plugin-rss',
 	    {
@@ -112,9 +119,12 @@ module.exports = {
 	['link', { rel: 'manifest', href: '/manifest.json' }],
 	['link', { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#5bbad5' }],
 	['meta', { name: 'msapplication-TileColor', content: '#da532c' }],
-	['meta', { name: 'theme-color', content: '#3ed0e0' }]
-	],
-	markdown: {
-		lineNumbers: true
-	}
+	['meta', { name: 'theme-color', content: '#3ed0e0' }],
+	['script', { src: "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" }],
+	['script', {}, 
+	 '(adsbygoogle = window.adsbygoogle || []).push({  google_ad_client: ca-pub-4214323124076221,  enable_page_level_ads: true });'],
+    ],
+    markdown: {
+	lineNumbers: true
+    }
 }
